@@ -22,9 +22,6 @@ int main()
             if (hash[m-arr[i]-arr[j]] == true)
                 flag = true;
 
-    if (flag)
-        printf("Yes\n");
-    else
-        printf("No\n");
+    flag ? printf("Yes\n") : printf("No\n");
     return 0;
 }
