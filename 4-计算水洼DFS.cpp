@@ -54,7 +54,5 @@ int main()
     sort(vec.begin(), vec.end());
     for (auto it = vec.begin(); it != vec.end(); ++it)
         it == vec.end() - 1 ? printf("%d", *it) : printf("%d ", *it);
-
     return 0;
 }
-

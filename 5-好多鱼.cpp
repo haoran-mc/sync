@@ -1,6 +1,5 @@
 #include <cstdio>
 #include <vector>
-#include <algorithm>
 using namespace std;
 const int maxn = 1e5;
 vector<int> fish(maxn, 0);
