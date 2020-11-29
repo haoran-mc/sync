@@ -28,7 +28,6 @@ int main()
         scanf("%d", &arr[i]);
         sum += arr[i];
     }
-    //printf("%lld\n", sum-1);
     if (k == 0) {
         unordered_set<ill> unst;
         for (int i = 0; i < n; ++i)
@@ -61,15 +60,6 @@ int main()
                     printf("Yes\n");
                     return 0;
                 }
-            //printf("unst1.size = %d\n", (int)unst1.size());
-            //printf("unst2.size = %d\n", (int)unst2.size());
-            //for (auto it = unst1.begin(); it != unst1.end(); ++it)
-                //printf("%lld\n", *it);
-            //printf("\n");
-            //for (auto it = unst2.begin(); it != unst2.end(); ++it)
-                //printf("%lld\n", *it);
-            //printf("%lld\n", k);
-            //printf("%lld\n", sum-1);
             printf("No\n");
         }
     }

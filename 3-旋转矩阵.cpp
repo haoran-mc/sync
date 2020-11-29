@@ -1,5 +1,4 @@
 #include <cstdio>
-
 const int maxn = 51;
 int matrix[maxn][maxn];
 

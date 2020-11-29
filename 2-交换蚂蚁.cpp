@@ -2,7 +2,6 @@
 #include <vector>
 #include <algorithm>
 using namespace std;
-#define bug printf("******\n");
 
 const int inf = 0x3f3f3f3f;
 struct Ant{
