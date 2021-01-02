@@ -18,7 +18,7 @@ int dirx[8] = {-1, 0, 1, -1, 1, -1, 0, 1};
 int diry[8] = {-1, -1, -1, 0, 0, 1, 1, 1};
 bool vis[maxn][maxn];
 
-void BFS(int x, int y){
+void BFS(int x, int y) {
     vis[x][y] = true;
     for (int i = 0; i < 8; ++i)
         if (x+dirx[i] > 0 && x+dirx[i] <= n && y+diry[i] > 0 && y+diry[i] <= m && water[x+dirx[i]][y+diry[i]] == 'W' && !vis[x+dirx[i]][y+diry[i]]) {
@@ -29,15 +29,13 @@ void BFS(int x, int y){
         }
 }
 
-int main()
-{
+int main() {
     scanf("%d", &n);
     scanf("%d", &m);
     getchar();
     for (int i = 1; i <= n; ++i) {
-        for (int j = 1; j <= m; ++j) {
+        for (int j = 1; j <= m; ++j)
             scanf("%c", &water[i][j]);
-        }
         getchar();
     }
     for (int i = 1; i <= n; ++i)
