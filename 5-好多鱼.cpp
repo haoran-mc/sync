@@ -3,8 +3,7 @@
 using namespace std;
 const int maxn = 1e5;
 vector<int> fish(maxn, 0);
-int main()
-{
+int main() {
     int left;
     int right;
     int n;
